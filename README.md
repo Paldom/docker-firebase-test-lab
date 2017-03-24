@@ -1,6 +1,6 @@
 # docker-firebase-test-lab
 
-This [repository](https://github.com/paldom/docker-firebase-test-lab) contains the Dockerfile of the [paldom/docker-firebase-test-lab](https://hub.docker.com/r/dpal/docker-firebase-test-lab/) image. With this container you can easily automate your Firebase Test Lab tests.
+This [repository](https://github.com/paldom/docker-firebase-test-lab) contains the Dockerfile of the [dpal/docker-firebase-test-lab](https://hub.docker.com/r/dpal/docker-firebase-test-lab/) image. With this container you can easily automate your Firebase Test Lab tests.
 
 ## Usage
 
