@@ -12,7 +12,7 @@ Before running a docker image, you prepare the following:
 * Find APKs you want to test.
 * Specify a folder (e.g. working directory) as docker volume and place those files into that directory.
 
-### Pull image
+### Pull image
 
 #### From Docker Hub
 
