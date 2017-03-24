@@ -55,7 +55,7 @@ Important! You should define a ```credentials``` file in order to run ```gcloud`
 1. Run docker container on your host:
 
 ```sh
-docker run --entrypoint bash -it paldom/docker-firebase-test-lab
+docker run --entrypoint bash -it dpal/docker-firebase-test-lab
 ```
 
 2. Type the following command and follow the steps:
