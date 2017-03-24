@@ -31,7 +31,7 @@ docker build -t dpal/docker-firebase-test-lab github.com/paldom/docker-firebase-
 Here's an example how to run this docker container:
 
 ```sh
-docker run -v $PWD:/firebase -e "PROJACC=YOUR_EMAIL"  -e "PROJID=YOUR_PROJECT_ID" -e "DEVICE=Nexus5" -e "OS=22" --name firebase paldom/docker-firebase-test-lab
+docker run -v $PWD:/firebase -e "PROJACC=YOUR_EMAIL"  -e "PROJID=YOUR_PROJECT_ID" -e "DEVICE=Nexus5" -e "OS=22" --name firebase dpal/docker-firebase-test-lab
 ```
 
 ### Params
@@ -48,7 +48,7 @@ You can use the following environment variables:
 * **LOCALE** - locale settings of test device (or devices), defaults to: *en*
 * **ORIENTATION** - screen orientation of test device (or devices), defaults to: *portrait*
 
-### Credentials
+### Credentials
 
 Important! You should define a ```credentials``` file in order to run ```gcloud``` tool. If you don't have a ```credentials``` file, you can create one with the following steps.
 
